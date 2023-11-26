@@ -1,6 +1,7 @@
 import React from 'react';
 import { FooterContainer, FooterLogo, HorizontalLine, SocialIcons, SocialIconLink, SocialIcon, CopyrightText } from './FooterElements';
 
+
 const Footer = () => {
   return (
     <FooterContainer>
