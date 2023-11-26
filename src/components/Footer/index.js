@@ -1,6 +1,11 @@
 import React from 'react';
 import { FooterContainer, FooterLogo, HorizontalLine, SocialIcons, SocialIconLink, SocialIcon, CopyrightText } from './FooterElements';
 
+import Facebook from '../../img/Icon-Facebook.svg';
+import Twitter from '../../img/Icon-Twitter.svg';
+import LinkedIn from '../../img/Icon-Linkedin.svg';
+import Instagram from '../../img/Icon-Instagram.svg';
+
 
 const Footer = () => {
   return (
@@ -12,10 +17,10 @@ const Footer = () => {
         Todos os direitos reservados
       </CopyrightText>
       <SocialIcons>
-        <SocialIconLink href="#"><SocialIcon src={require('../../img/Icon-Facebook.svg')} alt="Facebook" /></SocialIconLink>
-        <SocialIconLink href="#"><SocialIcon src={require('../../img/Icon-Twitter.svg')} alt="Twitter" /></SocialIconLink>
-        <SocialIconLink href="#"><SocialIcon src={require('../../img/Icon-Linkedin.svg')} alt="LinkedIn" /></SocialIconLink>
-        <SocialIconLink href="#"><SocialIcon src={require('../../img/Icon-Instagram.svg')} alt="Instagram" /></SocialIconLink>
+        <SocialIconLink href="#"><img src={Facebook} alt="Facebook" /></SocialIconLink>
+        <SocialIconLink href="#"><img src={Twitter} alt="Twitter" /></SocialIconLink>
+        <SocialIconLink href="#"><img src={LinkedIn} alt="LinkedIn" /></SocialIconLink>
+        <SocialIconLink href="#"><img src={Instagram} alt="Instagram" /></SocialIconLink>
       </SocialIcons>
     </FooterContainer>
   );

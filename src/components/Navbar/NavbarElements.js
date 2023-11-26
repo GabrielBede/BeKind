@@ -34,7 +34,7 @@ export const Bars = styled(Menu)`
   display: none;
   color: #252525;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 880px) {
     display: block;
     position: absolute;
     top: 0;
@@ -42,6 +42,7 @@ export const Bars = styled(Menu)`
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
+    margin: 20px
   }
 `;
 
@@ -50,7 +51,7 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 880px) {
     display: none;
   }
 `;
@@ -60,16 +61,16 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-right: 24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 880px) {
     display: none;
   }
 `;
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #007CE0;
   padding: 10px 22px;
-  color: #fff;
+  color: #FFFFFF;
   outline: none;
   border: none;
   cursor: pointer;
@@ -79,9 +80,8 @@ export const NavBtnLink = styled(Link)`
   margin-left: 24px;
 
   &:hover {
+    background: #0063C3;
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
   }
 `;
 

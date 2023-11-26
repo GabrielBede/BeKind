@@ -1,0 +1,234 @@
+:root {
+    --cor-primaria: #007CE0;
+    --cor-texto: #252525;
+    --cor-neutra: #7E7E7E;
+    --cor-cinza: #EEEEEE;
+    --cor-branca: #FFFFFF;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.cargo {
+    color: var(--cor-texto);
+    font-size: 1.0em;
+    font-weight: 700;   
+}
+
+.capa {
+    position: relative;
+    width: 85%;
+}
+
+.capa .capa-conteudo {
+    color: var(--cor-branca);
+    margin: 12px;
+    text-align: center;
+}
+
+.capa img {
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.capa .conteudo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa .conteudo p {
+    width: 60%;
+}
+
+.btn-ler {
+    background-color: var(--cor-branca);
+    color: var(--cor-primaria);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    width: 200px;
+    border: 0;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: var(--cor-cinza);
+    border-radius: 15px;
+    width: 85%;
+    height: 90px;
+  }
+  
+  .logos-slide {
+    display: flex;
+    animation: slide 20s linear infinite;
+  }
+  
+  .logos-slide img {
+    max-height: 46.5px;
+    margin: 0 25px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+
+
+
+  
+
+.quem-somos {
+    max-width: 80%;
+    margin: 50px;
+}
+
+.quem-somos-p {
+    max-width: 100%;
+    text-align: justify;
+}
+
+.quem-somos h2 {
+    text-align: center;
+}
+
+
+.nosso-grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosso-grupo p {
+    text-align: center;
+    max-width: 80%;
+
+}
+
+
+
+/*Cards - Equipe BeKind*/
+.cards {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 26px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.card img{
+    width: 180px;
+}
+
+.card text{
+    font-weight: bold;
+}
+
+.card h3{
+    margin-top: 10px;
+    color: var(--cor-primaria);
+}
+
+@media screen and (max-width: 1400px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .card {
+        width: 20%; 
+        margin: 10px;
+    }
+
+    .card img {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .card {
+        width: 40%; 
+        margin: 10px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}

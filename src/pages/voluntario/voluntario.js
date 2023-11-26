@@ -8,7 +8,7 @@ import './voluntario.css';
 const Voluntario = () => {
   return (
     <div class="conteudo">
-      <h1>Cadastrar</h1>
+      <h1 className='h1-vol'>Cadastrar</h1>
 
       <form>
         <div className="single-input-vol">

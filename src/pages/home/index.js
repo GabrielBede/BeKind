@@ -9,10 +9,11 @@ import Advogado from "../../img/Perfil-Advogado.png";
 import AnjosDaRua from "../../img/Perfil-AnjosDaRua.png";
 
 import { User, Lock } from 'react-feather';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './home.css';
 import Footer from '../../components/Footer/index';
 
-
+import Voluntario from '../voluntario/voluntario'; 
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
         <div>
           <h1>Seja <strong>gentil</strong> e doe <br /> para quem precisa</h1>
           <p>Juntos, podemos fazer a diferença. Descubra como você pode se tornar parte ativa da mudança que queremos ver no mundo.</p>
-          <a href="/" className="btn-voluntario">Seja voluntário!</a>
+          <a href="/voluntario" className="btn-voluntario">Seja voluntário!</a>
         </div>
         <div className="box-img-main">
           <img className="aplicativo" src={Aplicativo} alt="Imagem do aplicativo - BeKind" draggable="false" />
