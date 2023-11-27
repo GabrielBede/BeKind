@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "titulo": "SP planeja escolas rurais em modelo de internato para moradores de rua",
+        "conteudo": "O projeto Escolas Rurais, ideia do governo de São Paulo que pretende capacitar moradores em situação de rua em uma espécie de internato...",
+        "link": "https://jovempan.com.br/noticias/brasil/sp-planeja-escolas-rurais-em-modelo-de-internato-para-moradores-de-rua.html",
+        "imagem": "../../img/Blog-Noticia1.png"
+    },
+    {
+        "id": 2,
+        "titulo": "Cidade de SP contabiliza mais de 52 mil moradores de rua, alta de 8,2% em 2023, afirma pesquisa",
+        "conteudo": "Brasil soma mais de 206 mil pessoas nessa situação, segundo estudo da UFMG feito a partir de dados do Cadastro Único...",
+        "link": "https://g1.globo.com/sp/sao-paulo/noticia/2023/04/05/cidade-de-sp-contabiliza-mais-de-52-mil-moradores-de-rua-alta-de-82percent-em-2023-afirma-pesquisa.ghtml",
+        "imagem": ".../img/Blog-Noticia2.png"
+    },
+    {
+        "id": 3,
+        "titulo": "Os planos do governo Lula para os mais de 200 mil brasileiros em situação de rua",
+        "conteudo": "O Brasil tinha 236,4 mil pessoas em situação de rua inscritas no Cadastro Único (CadÚnico, registro do governo da população de baixa renda do país) em 2022.",
+        "link": "https://www.bbc.com/portuguese/articles/crg1z4emydlo",
+        "imagem": ".../img/Blog-Noticia3.png"
+    },
+    {
+        "id": 4,
+        "titulo": "Onda de calor: prefeituras intensificam ações para atender moradores de rua",
+        "conteudo": "Em Itaquá, a administração municipal informou que entregará kit com protetor solar e itens de hidratação.",
+        "link": "https://portalnews.com.br/cidades/2023/11/onda-de-calor-prefeituras-intensificam-acoes-para-atender-moradores-de-rua",
+        "imagem": "../img/Blog-Noticia4.png"
+    },
+    {
+        "id": 5,
+        "titulo": "Prefeitura de SP muda abordagem a população em situação de rua; confira o que prevê novo modelo",
+        "conteudo": "Anúncio acontece em meio à polêmica sobre aumento de sem-teto e de barracas nas praças e calçadas da cidade; movimentos sociais criticam...",
+        "link": "https://exame.com/brasil/prefeitura-de-sp-muda-abordagem-a-populacao-em-situacao-de-rua-confira-o-que-preve-novo-modelo/",
+        "imagem": "../img/Blog-Noticia5.png"
+    },
+    {
+        "id": 6,
+        "titulo": "População de rua em São Paulo cresce em junho, aponta levantamento",
+        "conteudo": "Com a maior população de rua do Brasil, a cidade de São Paulo registrou aumento no número de pessoas que vivem nessa condição, em junho.",
+        "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2023-09/populacao-de-rua-em-sao-paulo-cresce-em-junho-aponta-levantamento",
+        "imagem": "../img/Blog-Noticia6.png"
+    }
+]

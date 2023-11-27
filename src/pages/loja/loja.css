@@ -1,0 +1,111 @@
+:root {
+    --cor-primaria: #007CE0;
+    --cor-texto: #252525;
+    --cor-neutra: #7E7E7E;
+    --cor-cinza: #EEEEEE;
+    --cor-branca: #FFFFFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--cor-branca);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-neutra);
+    border-radius: 10px;
+    border: 0px solid var(--cor-branca);
+}
+
+body {
+    min-height: 20vh;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.loja-p {
+    color: var(--cor-texto);
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.flex img {
+    width: 300px;
+}
+
+.flex .loja-p {
+    font-weight: 800;
+}
+
+.flex small {
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+    .flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex > div {
+        flex: 1 1 30%;
+        text-align: center;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .flex {
+        justify-content: center;
+    }
+
+    .flex > div {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
