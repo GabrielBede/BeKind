@@ -14,7 +14,7 @@ const Loja = () => {
   return (
     <div class="conteudo">
 
-      <h2>Nossos Produtos</h2>
+      <h2 className='h2-loja'>Nossos Produtos</h2>
 
       <section className="flex">
         <div>
