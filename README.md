@@ -2,14 +2,14 @@
 
 Bem-vindo ao repositório da BeKind! A BeKind é uma plataforma em desenvolvimento que tem como objetivo ajudar moradores de rua e pessoas em situação de vulnerabilidade. Nossa missão é fornecer suporte, recursos e conscientização sobre questões sociais. Este projeto foi criado como parte do meu projeto de conclusão de curso e visa promover a solidariedade, empatia e compaixão em relação às pessoas em situação de vulnerabilidade.
 
-![Logo da BeKind](.assets/Capa.png)
+![Logo da BeKind](./assets/Capa.png)
 
 
 ## 💙 Objetivo
 
 A BeKind tem como objetivo conectar voluntários, vulneráveis e organizações que desejam fazer a diferença na vida dessas pessoas. Fornecemos uma maneira fácil e eficiente de contribuir para a causa social. Nossa plataforma oferece diversas funcionalidades para atingir esse propósito.
 
-![Website da BeKind](.assets/Website.png)
+![Website da BeKind](./assets/Website.png)
 
 
 ## 💻 Funcionalidades Principais
