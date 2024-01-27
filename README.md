@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 🫂 BeKind - Plataforma de Ajuda Social
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório da BeKind! A BeKind é uma plataforma em desenvolvimento que tem como objetivo ajudar moradores de rua e pessoas em situação de vulnerabilidade. Nossa missão é fornecer suporte, recursos e conscientização sobre questões sociais. Este projeto foi criado como parte do meu projeto de conclusão de curso e visa promover a solidariedade, empatia e compaixão em relação às pessoas em situação de vulnerabilidade.
 
-## Available Scripts
+![Logo da BeKind](.assets/Capa.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## 💙 Objetivo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A BeKind tem como objetivo conectar voluntários, vulneráveis e organizações que desejam fazer a diferença na vida dessas pessoas. Fornecemos uma maneira fácil e eficiente de contribuir para a causa social. Nossa plataforma oferece diversas funcionalidades para atingir esse propósito.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Website da BeKind](.assets/Website.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Funcionalidades Principais
 
-### `npm run build`
+- **Home**: A página inicial é onde os usuários podem encontrar uma visão geral da BeKind e aprender mais sobre a missão e os objetivos da plataforma.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Sobre nós**: Nesta seção, você pode encontrar informações detalhadas sobre a história da BeKind, sua equipe e o propósito da plataforma.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Blog**: A página do blog é onde os usuários podem ler informações atualizadas sobre a situação das pessoas em situação de rua, incluindo notícias, histórias de impacto e informações relevantes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Doações**: A página de doações mostra aos usuários as doações em extrema necessidade das ONGs, permitindo que eles contribuam de forma direcionada para ajudar aqueles que mais precisam.
 
-### `npm run eject`
+- **Cadastro de Voluntário**: Nesta seção, pessoas interessadas em contribuir como voluntários podem se inscrever.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Loja**: A seção da loja permite que você compre produtos relacionados à nossa causa, onde os fundos arrecadados contribuem diretamente para nossos esforços em prol da assistência social.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📞 Contato
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato conosco:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- E-mail: bekindtcc@gmail.com
+- Instagram: @bekind.initiative
